@@ -11,10 +11,18 @@ import {
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/icons"; // Asumiendo que tienes iconos
 import { DateBadge } from "../../components/cards/DateBatch";
+import Head from "next/head";
 
 const Claim = () => {
   return (
     <Fragment>
+      <Head>
+        <title>Claim - By Happ3n</title>
+        <meta
+          name="Haps by happ3n"
+        />
+        <link href="/favicon.ico" rel="icon" />
+      </Head>
       <Box mt={"70px"} w={"100%"} h={"700px"} px={"30px"} >
         <Center mt={100} >
           <Grid templateColumns="repeat(2, 1fr)" gap={6} alignItems={'center'}>

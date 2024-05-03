@@ -6,6 +6,7 @@ import FeaturedEvent from "../../components/cards/FeaturedEvent";
 import { useAccount } from "wagmi";
 import { useRouter } from "next/router";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Head from "next/head";
 
 const EventsDummy: Happ3nEvent[] = [
   {
@@ -99,6 +100,13 @@ const MyHaps = () => {
 
   return (
     <Fragment>
+      <Head>
+        <title>My Haps - By Happ3n</title>
+        <meta
+          name="Haps by happ3n"
+        />
+        <link href="/favicon.ico" rel="icon" />
+      </Head>
       <Box mt={"70px"} w={"100%"} h={"700px"}>
         <Center justifyContent={"center"}>
           <Button
