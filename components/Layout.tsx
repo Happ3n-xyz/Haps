@@ -10,14 +10,15 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { useAccount } from "wagmi";
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 const Layout: React.FC<LayoutProps> = ({ children }) => {
-
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+  const { isConnected } = useAccount();
   useEffect(() => {}, []);
 
   return (
@@ -59,7 +60,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               transform: "scale(1.05)",
             }}
           />
-          <HStack spacing={2} alignItems={"center"}>
+          <HStack spacing={2} alignItems={"center"} justifyContent={"space-between"} w={'100%'}>
             <Link href="/">
               <Image
                 src="/images/login/login-logo.svg"
@@ -68,13 +69,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 alt="Picture of the author"
               />
             </Link>
+            {isConnected && <ConnectButton />}
           </HStack>
         </Flex>
       </Box>
-      <Box
-        position="relative" 
-        zIndex={1}
-      >
+      <Box position="relative" zIndex={1}>
         {children}
       </Box>
     </Box>

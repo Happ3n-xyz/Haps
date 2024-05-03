@@ -20,8 +20,8 @@ const theme = extendTheme({
     textBrand: "#53F6C6",
 
     buttonPrimary : {
-      bg: "linear-gradient(180deg, #A2D6C7 3%, #53F6C6 82%)",
-      color: "textSecondary",
+      bg: "linear-gradient(90deg, #17D7C0 0%, #0C7164 100%)",
+      color: "black",
       hover: "linear-gradient(180deg, #53F6C6 3%, #53F6C6 82%)",
     },
     buttonSecondary: {
@@ -36,6 +36,7 @@ const theme = extendTheme({
     },
     //items
     itemselector : "#D9D9D9",
+    cardBackground: "#121212",
   },
   config: {
     initialColorMode: "dark",
