@@ -10,6 +10,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import theme from "../theme";
 import Layout from "../components/Layout";
+import { Toaster } from "react-hot-toast";
+import { UserProvider } from "../context/userContext";
 
 const config = getDefaultConfig({
   appName: "RainbowKit App",
@@ -31,9 +33,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       <QueryClientProvider client={client}>
         <RainbowKitProvider>
           <ChakraProvider theme={theme}>
+          <UserProvider>
             <Layout>
               <Component {...pageProps} />
+              <Toaster />
             </Layout>
+          </UserProvider>
           </ChakraProvider>
         </RainbowKitProvider>
       </QueryClientProvider>
