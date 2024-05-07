@@ -1,13 +1,23 @@
 export interface Happ3nEvent {
-  id: number;
-  name: string;
-  shortDescription: string;
-  description: string;
-  date: string;
-  location: string;
-  image: string;
-  createdAt: Date | string;
-  updatedAt: Date | string;
+  chain: string;
+  createdAt: string;
+  eventDate: string;
+  eventLocation: string;
+  eventName: string;
+  externalUrlEvent: string;
+  id: string;
+  ipfsHash: string;
+  joined: {
+    claimed: boolean;
+    createdAt: string;
+    hapId: string;
+    id: string;
+    txHash?: string;
+    userId: string;
+  };
+  message: string;
+  nftImage: string;
+  tokenId: string;
 }
 
 export enum Categories {

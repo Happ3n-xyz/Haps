@@ -16,13 +16,18 @@ const FeaturedEvent = ({ event }: Props) => {
     <Card
       h={{ base: "auto", sm: "150px", md: "200px", lg: "200px" }}
       w={{ base: "auto", sm: "250px", md: "300px", lg: "300px" }}
-      bgImage="url('https://picsum.photos/200/300')"
+      bgImage={`url(${event.nftImage})`}
       bgPos="center"
       bgSize="cover"
       borderRadius="lg"
       overflow="hidden"
       boxShadow="lg"
       position="relative"
+      cursor="pointer" 
+      _hover={{
+        transform: "scale(1.05)", 
+        transition: "transform 0.2s ease-in-out" 
+      }}
     >
       <CardBody
         padding={"40px"}
@@ -49,9 +54,16 @@ const FeaturedEvent = ({ event }: Props) => {
           </Flex>
           <Flex alignItems="center" justifyContent="space-between" mb={2}>
 
-          <Text fontSize="md" fontWeight="600" flex="1">
-            {"Nouns Tales Circuitos de Conciencia"}
-          </Text>
+          <Text
+              fontSize="md"
+              fontWeight="600"
+              flex="1"
+              height={'50px'}
+              textShadow="1px 1px 2px rgba(0,0,0,0.9)"
+              color="white"
+            >
+              {event.eventName}
+            </Text>
           </Flex>
           <Flex alignItems="center" justifyContent="space-between">
             <Flex w={"50%"} justifyContent={"flex-start"}>
@@ -62,7 +74,7 @@ const FeaturedEvent = ({ event }: Props) => {
                 lineHeight={"32px"}
                 color={"textBrand"}
               >
-                {"event.category"}
+                {FormatDateStringToHours(event.eventDate)}
               </Text>
             </Flex>
           </Flex>

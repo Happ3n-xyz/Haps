@@ -1,0 +1,51 @@
+{
+  "tokenId": "1",
+  "nftImage": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmUwyAU1i3JD6SEPbArf9Vy8DFtwTzX4dMmm6xoms2A2Vm",
+  "ipfsHash": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmRUvZvqzfH2MNVfN4w7AwbKRSmuqP36widuxMN9cjVVEf",
+  "eventName": "Consensus 2024",
+  "eventDate": "2024-05-29T08:00:00.000Z",
+  "externalUrlEvent": "https://consensus2024.coindesk.com/register/",
+  "eventLocation": "Austin - TX - USA",
+  "chain": "celo",
+  "secretWord": "happ3n!!",
+  "message": "Consensus is a cryptocurrency and blockchain conference hosted by the leading crypto news agency CoinDesk...."
+}
+
+{
+  "tokenId": "2",
+  "nftImage": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmX8aeym4wUhk36z5VyXPfUWNbhCofFVyhcRphxeCx2LJy",
+  "ipfsHash": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmYeWcpVD8AMWhjkXBXqzkwLcsnPpsxSBsfDTT7HZTy8uW",
+  "eventName": "Ethereum Community Conference (EthCC)",
+  "eventDate": "2024-07-08T08:00:00.000Z",
+  "externalUrlEvent": "https://ethcc.io/",
+  "eventLocation": "Brussels",
+  "chain": "celo",
+  "secretWord": "happ3n!!",
+  "message": "The Ethereum Community Conference (EthCC) is the largest annual European Ethereum event focused on technology and community. While EthCC itself is the flagship event with +350 speakers coming from all over the world, multiple side events, meetups..."
+}
+
+{
+  "tokenId": "3",
+  "nftImage": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmXKcvkawpKVz51jM14PdyxpR9T9SKyvgY4D7T2SCBZq62",
+  "ipfsHash": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmSzpNCHmEXvsJPQBEa7QTN39CdVq2t54EnZqdw5reAr2a",
+  "eventName": "Bitcoin 2024",
+  "eventDate": "2024-07-25T08:00:00.000Z",
+  "externalUrlEvent": "https://b.tc/conference/2024",
+  "eventLocation": "Nashville - TN - USA",
+  "chain": "celo",
+  "secretWord": "happ3n!!",
+  "message": "With the upcoming Halvening in 2024, this year will be important for Bitcoin, increasing the anticipation for the 2024 edition of the Bitcoin conference. Supporters of Bitcoin and organizers of the event are optimistic that the halving event will..."
+}
+
+{
+  "tokenId": "4",
+  "nftImage": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmbqtRwfyhx7ZSpCJabU3m5xdBenaReECA6S9jP6Fbr6SF",
+  "ipfsHash": "https://pink-large-flea-149.mypinata.cloud/ipfs/QmQiSGspwT5vxJL3RrazWGHo5XyBYRR9xvG8wWXFQAj3qR",
+  "eventName": "Token 2049 Singapore",
+  "eventDate": "2024-09-18T08:00:00.000Z",
+  "externalUrlEvent": "https://www.asia.token2049.com/",
+  "eventLocation": "Singapore",
+  "chain": "celo",
+  "secretWord": "happ3n!!",
+  "message": "TOKEN2049 is an annual global conference where decision-makers in the crypto ecosystem connect to exchange ideas, network, and shape the industry.  The two-day event is a platform where the world's most influential figures, and organizations ..."
+}
